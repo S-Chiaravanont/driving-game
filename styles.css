@@ -13,3 +13,19 @@ img {
   width: 15%;
   padding: 10px;
 }
+
+.north {
+  transform: rotateZ(-90deg);
+}
+
+.south {
+  transform: rotateZ(90deg);
+}
+
+.west {
+  transform: rotateZ(180deg);
+}
+
+.east {
+  transform: rotateZ(0deg);
+}
